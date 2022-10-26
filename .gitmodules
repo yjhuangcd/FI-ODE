@@ -7,3 +7,6 @@
 [submodule "libs/ortho_conv"]
 	path = libs/ortho_conv
 	url = git@github.com:yjhuangcd/ortho_conv.git
+[submodule "libs/core"]
+	path = libs/core
+	url = git@github.com:yjhuangcd/core.git
