@@ -1,0 +1,12 @@
+[submodule "libs/advertorch"]
+	path = libs/advertorch
+	url = git@github.com:yjhuangcd/advertorch.git
+[submodule "libs/core"]
+	path = libs/core
+	url = git@github.com:yjhuangcd/core.git
+[submodule "libs/auto_LiRPA"]
+	path = libs/auto_LiRPA
+	url = git@github.com:yjhuangcd/auto_LiRPA.git
+[submodule "libs/ortho_conv"]
+	path = libs/ortho_conv
+	url = git@github.com:yjhuangcd/ortho_conv.git
