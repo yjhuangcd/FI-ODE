@@ -1,0 +1,69 @@
+# @package _global_
+defaults:
+  - module: Lyapunov
+  - module/dynamics: OrthoClassDynProjectSimplexLips
+  - module/sampler: CompositeSampler
+  - module/sampler@_sampler_callback_dict.s1: UniformSimplexSampling
+  - module/sampler@_sampler_callback_dict.s2: CorrectConeSampling
+  - module/sampler_scheduler: CompositeSamplerScheduler
+  - module/sampler_scheduler@_sch_callback_dict.v1: LinearScheduler
+  - module/sampler_scheduler@_sch_callback_dict.v2: LinearScheduler
+  - module/output: Output
+  - module/init_fun: UniformInitFun
+  - module/init_fun/param_map: ORTHO_KWLarge_Concat
+  - default
+  - _self_
+
+_sch_callback_dict:
+  v1:
+    rate: -0.02
+    bias: 1.
+    clamp: min
+    clamp_val: 0.02
+    start: 10
+  v2:
+    rate: 0.02
+    clamp: max
+    clamp_val: 0.98
+    start: 10
+module:
+  train_ode_solver: dopri5
+  val_ode_solver: dopri5
+  train_ode_tol: 1e-3
+  val_ode_tol: 1e-3
+  opt_name: Adam
+  h_dist_lim: 15
+  weight_decay: 0.
+  lr: 0.01
+  h_sample_size: 512
+  simplex: True
+  order: 1
+  epoch_off_scale: 10
+  sampler_scheduler:
+    scheduler_weights: [1., 1. ]
+  dynamics:
+    activation: 'ReLU'
+    mlp_size: 128
+    kappa: 1.
+    kappa_length: 30000
+    alpha_1: 100.
+    sigma_1: 0.02
+    alpha_2: 50.
+    x_dim: 10
+  init_fun:
+    param_map:
+      out_dim: 10
+      act: GroupSort
+  decay_epochs: [90, 120, 150]
+  max_epochs: 200
+  warmup: 20
+  adv_train: False
+  val_adv: False
+  eps: 0.141
+  norm: L2
+  act: relu
+  scheduler_name: cos_anneal
+batch_size: 64
+val_batch_size: 4096
+gpus: 1
+seed: 0

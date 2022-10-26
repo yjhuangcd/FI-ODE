@@ -1,0 +1,61 @@
+# @package _global_
+defaults:
+  - module: Lyapunov
+  - module/dynamics: OrthoClassDynProjectSimplexLips
+  - module/sampler: CompositeSampler
+  - module/sampler@_sampler_callback_dict.s1: DecisionBoundarySampling
+  - module/sampler@_sampler_callback_dict.s2: DecisionBoundarySampling
+  - module/sampler_scheduler: CompositeSamplerScheduler
+  - module/sampler_scheduler@_sch_callback_dict.v1: LinearScheduler
+  - module/sampler_scheduler@_sch_callback_dict.v2: ConstantScheduler
+  - module/output: Output
+  - module/init_fun: UniformInitFun
+  - module/init_fun/param_map: ORTHO_KWLargeMNIST_Concat_test
+  - certify
+  - _self_
+
+module:
+  train_ode_solver: dopri5
+  val_ode_solver: dopri5
+  train_ode_tol: 1e-3
+  val_ode_tol: 1e-3
+  opt_name: Adam
+  h_dist_lim: 15
+  weight_decay: 0.
+  lr: 0.01
+  h_sample_size: 512
+  simplex: True
+  order: 1
+  t_max: 5.0
+  sampler_scheduler:
+    scheduler_weights: [1., 1. ]
+  dynamics:
+    activation: 'GroupSort'
+    mlp_size: 128
+    kappa: 1.
+    kappa_length: 30000
+    alpha_1: 1.
+    alpha_2: 1.
+    x_dim: 10
+  init_fun:
+    param_map:
+      out_dim: 10
+      act: GroupSort
+  decay_epochs: [90, 120, 150]
+  max_epochs: 200
+  warmup: 20
+  adv_train: True
+  eps: 0.141
+  norm: L2
+  act: relu
+  scheduler_name: cos_anneal
+batch_size: 128
+val_batch_size: 512
+gpus: 1
+seed: 0
+norm: "2"
+eps: 0.1
+T: 40
+kappa: 0.2
+start_ind: 0
+end_ind: 100
