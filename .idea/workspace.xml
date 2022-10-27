@@ -1,0 +1,1438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e94cc14e-2a20-4b8c-99bb-05f71ba6d992" name="Changes" comment="submodule tracks autolirpa master">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robustness/certify_lipschitz.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/certify_lipschitz.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robustness/count_samples.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/robustness/eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/eval_utils.py" afterDir="false" />
+    </list>
+    <list id="42bd4e18-847f-4d70-b3f1-3243c9bb5ae1" name="Changes by ivan" comment="Hacked inverted pendulum with LQR linearization controller. Does not work." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+    </option>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2021.3/remote_sources/317926342/621608902/torch/utils/data/dataloader.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$USER_HOME$/Library/Caches/JetBrains/PyCharm2021.3/remote_sources/317926342/-419916190/multiprocessing/connection.py" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="272v9GW1VnJc1ofTWCQGkvfziEv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="codeWithMe.voiceChat.enabledByDefault" value="false" />
+    <property name="credentialsType com.jetbrains.python.remote.PyCreateRemoteInterpreterDialog$PyCreateRemoteSdkForm" value="SSH Configuration" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/configs/classification/classical.yaml" />
+  </component>
+  <component name="PyDebuggerOptionsProvider">
+    <option name="mySaveCallSignatures" value="true" />
+    <option name="mySupportGeventDebugging" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/robustness" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/robustness" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.certified_segway_roa_plot">
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_raw" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_raw.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DecisionBoundary ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=5 ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++download=False ++module.t_max=0.1 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_robustness" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="9" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_robustness.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_concat_new_twolayer +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='ivan/RobustLyaNet/model-1n05klvh:best' ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_robustness_classical" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_robustness.py" />
+      <option name="PARAMETERS" value="--config-name classical +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='yujiah/LyaNet/model-pf5a950t:best' hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_robustness_lyanet" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="5" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_robustness.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='yujiah/LyaNet/model-365pskpc:best' hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_robustness_project_simplex " type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="9" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_robustness.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='ivan/RobustLyaNet/model-108sh9x1:best' ++download=True hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_robustness_simplex" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="9" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_robustness.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_simplex +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='ivan/RobustLyaNet/model-2x7rhtzl:best' ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="autoattack_saveidx" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_saveidx.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DynCrossEntropy ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. +model_file='ivan/RobustLyaNet/model-g4sr88fc:best' ++module.dynamics.scale_nominal=True ++module.dynamics.cayley=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certified_pendulum" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/certified_pendulum.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certified_segway" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/certified_segway.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certified_segway_roa_plot" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <PathMappingSettings>
+        <option name="pathMappings">
+          <list>
+            <mapping local-root="$PROJECT_DIR$/control/certified_segway_plot.py" remote-root="/home/yujia/src/FI-ODE/control/certified_segway_plot.py" />
+          </list>
+        </option>
+      </PathMappingSettings>
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/certified_segway_plot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certified_segway_u" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/certified_segway_u.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_bias" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_bias.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++start_ind=11 ++end_ind=-1 ++T=20 ++batches=800 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_bias_band" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_bias_band.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++start_ind=14 ++end_ind=10000 ++T=24 ++m=100 ++batches=100 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=200. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_bias_decision_boundary" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sshConfig://yujia@huang2268/home/yujia/miniconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_bias_decision_boundary.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++start_ind=6200 ++end_ind=8000 ++T=40 ++batches=200 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_bias_ring" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_bias_ring.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-2yzbi5se:best' +module/lya_cand=DecisionBoundary ++start_ind=11 ++end_ind=-1 ++T=20 ++m=100 ++batches=100 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_full_crown" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_full_crown.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lipstrain_cone +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-16o0hh47:best' +module/lya_cand=DecisionBoundary ++start_ind=0 ++end_ind=-1 ++T=40 ++batches=800 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="certify_full_crown_origin" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_full_crown_origin.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++start_ind=0 ++end_ind=-1 ++T=40 ++batches=400 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grid" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/grid_on_decision_boundary.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='ivan/RobustLyaNet/model-n9n2kqu5:best' +module/lya_cand=DecisionBoundary ++kappa=0.2 ++T=20 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="grid_on_decision_boundary" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="2" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/grid_on_decision_boundary.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR3 +module/lya_cand=DecisionBoundary ++module.dynamics.activation=ReLU ++kappa=0.2 ++T=40 ++batches=10 ++load_grid=True ++grid_name=&quot;debug.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.kappa=1. ++module.dynamics.alpha_1=50. ++module.dynamics.alpha_2=50. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=True ++module.dynamics.caylay=True ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="naive_certify" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="9" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/naive_certify.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DynCrossEntropy ++module.t_max=0.1 ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. +model_file='ivan/RobustLyaNet/model-14mjgop5:best' ++module.dynamics.scale_nominal=True ++module.dynamics.cayley=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plots (1)" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/plots.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='ivan/RobustLyaNet/model-avse81ab:v9' ++module.dynamics.scale_nominal=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plots" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/plots.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 +model_file='ivan/RobustLyaNet/model-2c9g6323:best' ++module.dynamics.scale_nominal=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plots_margin_relu" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/plots.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='ivan/RobustLyaNet/model-14mjgop5:best' +module/lya_cand=DecisionBoundary ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++data_loader_workers=4 ++module.t_max=1. ++module.h_dist_lim=15. ++module.dynamics.activation=ReLU ++module.dynamics.kappa=0.2 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=True ++module.dynamics.cayley=True ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="plots_resnet_18" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/plots.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_resnet18_concat_twolayer +dataset=CIFAR10 +model_file='ivan/RobustLyaNet/model-32kiemhn:best' +module/lya_cand=DecisionBoundary ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++data_loader_workers=4 ++module.t_max=1. ++module.h_dist_lim=15. ++module.dynamics.activation=ReLU ++module.dynamics.kappa=0.2 ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.lya_cand.log_mode=False ++download=True hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_certify" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/sample_certify.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DynCrossEntropy ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++T=20 ++m=100 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. +model_file='ivan/RobustLyaNet/model-g4sr88fc:best' ++module.dynamics.scale_nominal=True ++module.dynamics.cayley=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_certify_decision _lccal" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/sample_certify_decision_local.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lipstrain_cone +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-16o0hh47:best' +module/lya_cand=DecisionBoundary ++T=40 ++batches=10 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_certify_decision" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/sample_certify_decision.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-1llq8ynh:best' +module/lya_cand=DecisionBoundary ++T=40 ++batches=10 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=20. ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_certify_decision_origin" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="3" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/sample_certify_decision_origin.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DecisionBoundary ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++module.dynamics.alpha_1=50. ++module.dynamics.alpha_2=50. +model_file='yujiah/RobustLyaNet/model-1llq8ynh:best' ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++download=False ++module.t_max=0.1 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sample_certify_emplip" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="2" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/sample_certify_decision_emplip.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++T=40 ++batches=10 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name mnist_lyapunov_robust_orthodyn_project_simplex_lips_cone +module/lya_cand=DecisionBoundary +dataset=MNIST ++gpus=1 ++batch_size=128 ++val_batch_size=256 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.opt_name=Adam ++module.lr=5e-3 ++module.t_max=1 ++module.weight_decay=0. ++module.warmup=-1 ++module.dynamics.kappa=2.0 ++module.max_epochs=300 ++module.h_sample_size=256 ++module.dynamics.alpha_1=20. ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=True ++module.adv_train=False ++module.dynamics.cayley=True ++module.dynamics.kappa_length=0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline_lips_train" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="2" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lipstrain_cone +module/lya_cand=DecisionBoundary +dataset=CIFAR10 ++gpus=1 ++batch_size=128 ++val_batch_size=256 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.opt_name=Adam ++module.lr=5e-3 ++module.t_max=1 ++module.weight_decay=0. ++module.warmup=-1 ++module.dynamics.kappa=5.0 ++module.max_epochs=300 ++module.h_sample_size=256 ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=True ++module.adv_train=False ++module.dynamics.cayley=True ++module.dynamics.kappa_length=0" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline_logits" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="9" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_concat +dataset=CIFAR10 ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++data_loader_workers=4 ++module.h_dist_lim=5. ++module.opt_name=Adam ++module.lr=1e-2 ++module.weight_decay=0. ++module.warmup=-1 ++module.dynamics.kappa=1. ++module.max_epochs=300 ++module.h_sample_size=256" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline_logits_resnet18" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="6" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_resnet18_concat +dataset=CIFAR10 ++module.max_epochs=1 ++gpus=1 ++batch_size=32 ++val_batch_size=32 ++data_loader_workers=4 ++module.full_lya=True ++module.fix_backbone=True" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline_ode" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips_ode +dataset=CIFAR10 +module/lya_cand=DecisionBoundary ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.opt_name=Adam ++module.lr=1e-2 ++module.weight_decay=0. ++module.warmup=-1 ++module.dynamics.kappa=1. ++module.max_epochs=300 ++module.h_sample_size=256 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. ++module.adv_train=False" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sl_pipeline_original" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@gateway-phx.huan-zhang.com:2283/home/shared/yujia/anaconda3/envs/lyanet/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sl_pipeline.py" />
+      <option name="PARAMETERS" value="--config-name lyapunov +dataset=CIFAR10 ++gpus=1 ++batch_size=32 ++val_batch_size=64 ++data_loader_workers=4" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_solver" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/barrier_projection/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_segway_boundary" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/train_segway_boundary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_segway_roa" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/train_segway.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="train_segway_roa_lqr" type="PythonConfigurationType" factoryName="Python">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+        <env name="AUTOLIRPA_DEBUG_GRAPH" value="0" />
+      </envs>
+      <option name="SDK_HOME" value="sftp://yujia@131.215.143.168:22/home/yujia/miniconda3/envs/lyanetcu/bin/python3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/control" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/control/train_segway_roa_lqr.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_barrier_projection.test_all_above" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-s&quot;" />
+      <option name="_new_target" value="&quot;test_barrier_projection.test_all_above&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_barrier_projection.test_fast" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_barrier_projection.test_fast&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_barrier_projection.test_fast_no_upper" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_barrier_projection.test_fast_no_upper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_barrier_projection.test_slow" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_barrier_projection.test_slow&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test.test_fast_no_upper" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test.test_fast_no_upper&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_barrier_projection.py" type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="LyapunovLearning-Shadow" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/barrier_projection" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/barrier_projection/test_barrier_projection.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.sl_pipeline" />
+      <item itemvalue="Python.sl_pipeline_lips_train" />
+      <item itemvalue="Python.test_solver" />
+      <item itemvalue="Python.sl_pipeline_ode" />
+      <item itemvalue="Python.sl_pipeline_logits" />
+      <item itemvalue="Python.sl_pipeline_logits_resnet18" />
+      <item itemvalue="Python.autoattack_robustness" />
+      <item itemvalue="Python.certify_bias" />
+      <item itemvalue="Python.certify_bias_ring" />
+      <item itemvalue="Python.certify_bias_decision_boundary" />
+      <item itemvalue="Python.certify_bias_band" />
+      <item itemvalue="Python.certify_full_crown" />
+      <item itemvalue="Python.certify_full_crown_origin" />
+      <item itemvalue="Python.plots" />
+      <item itemvalue="Python.plots_margin_relu" />
+      <item itemvalue="Python.plots_resnet_18" />
+      <item itemvalue="Python.plots (1)" />
+      <item itemvalue="Python.sample_certify" />
+      <item itemvalue="Python.autoattack_saveidx" />
+      <item itemvalue="Python.autoattack_raw" />
+      <item itemvalue="Python.naive_certify" />
+      <item itemvalue="Python.sample_certify_decision_origin" />
+      <item itemvalue="Python.sample_certify_decision" />
+      <item itemvalue="Python.sample_certify_decision _lccal" />
+      <item itemvalue="Python.sample_certify_emplip" />
+      <item itemvalue="Python.grid_on_decision_boundary" />
+      <item itemvalue="Python.grid" />
+      <item itemvalue="Python.autoattack_robustness_simplex" />
+      <item itemvalue="Python.autoattack_robustness_project_simplex " />
+      <item itemvalue="Python.autoattack_robustness_classical" />
+      <item itemvalue="Python.autoattack_robustness_lyanet" />
+      <item itemvalue="Python.sl_pipeline_original" />
+      <item itemvalue="Python.certified_segway_u" />
+      <item itemvalue="Python.certified_segway" />
+      <item itemvalue="Python.certified_segway_roa_plot" />
+      <item itemvalue="Python.train_segway_boundary" />
+      <item itemvalue="Python.train_segway_roa" />
+      <item itemvalue="Python.train_segway_roa_lqr" />
+      <item itemvalue="Python.certified_pendulum" />
+      <item itemvalue="Python tests.pytest for test_barrier_projection.test_all_above" />
+      <item itemvalue="Python tests.pytest in test_barrier_projection.py" />
+      <item itemvalue="Python tests.pytest for test_barrier_projection.test_fast_no_upper" />
+      <item itemvalue="Python tests.pytest for test.test_fast_no_upper" />
+      <item itemvalue="Python tests.pytest for test_barrier_projection.test_slow" />
+      <item itemvalue="Python tests.pytest for test_barrier_projection.test_fast" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_barrier_projection.test_fast" />
+        <item itemvalue="Python tests.pytest for test_barrier_projection.test_slow" />
+        <item itemvalue="Python tests.pytest for test.test_fast_no_upper" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e94cc14e-2a20-4b8c-99bb-05f71ba6d992" name="Changes" comment="" />
+      <created>1648530843177</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648530843177</updated>
+      <workItem from="1648530847099" duration="137335000" />
+      <workItem from="1649726337815" duration="119454000" />
+      <workItem from="1650607198163" duration="202014000" />
+      <workItem from="1651899851109" duration="72000" />
+      <workItem from="1651907687923" duration="12883000" />
+      <workItem from="1652053188290" duration="47530000" />
+      <workItem from="1652317427114" duration="92314000" />
+      <workItem from="1652987371832" duration="623000" />
+      <workItem from="1654153009069" duration="206000" />
+      <workItem from="1661206290199" duration="7813000" />
+      <workItem from="1661467198606" duration="190897000" />
+      <workItem from="1663135421656" duration="12713000" />
+      <workItem from="1663608950371" duration="58641000" />
+      <workItem from="1663960204465" duration="53459000" />
+      <workItem from="1664325508506" duration="3724000" />
+      <workItem from="1664421687374" duration="222000" />
+      <workItem from="1664421958164" duration="232000" />
+      <workItem from="1664423013584" duration="396000" />
+      <workItem from="1664423994421" duration="219000" />
+      <workItem from="1664424228522" duration="2426000" />
+      <workItem from="1664427140525" duration="208885000" />
+      <workItem from="1665510942384" duration="16505000" />
+      <workItem from="1666293016673" duration="2634000" />
+      <workItem from="1666308550570" duration="1703000" />
+      <workItem from="1666330648042" duration="6530000" />
+      <workItem from="1666723523121" duration="10139000" />
+    </task>
+    <task id="LOCAL-00001" summary="A harmless change">
+      <created>1648539039000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648539039001</updated>
+    </task>
+    <task id="LOCAL-00002" summary="A harmless change">
+      <created>1650847019510</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1650847019510</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Hacked inverted pendulum with LQR linearization controller. Does not work.">
+      <created>1662252480087</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1662252480087</updated>
+    </task>
+    <task id="LOCAL-00004" summary="private version of autolirpa">
+      <created>1662256176208</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1662256176209</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change to private version of autolirpa">
+      <created>1662256524571</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1662256524571</updated>
+    </task>
+    <task id="LOCAL-00006" summary="submodule tracks autolirpa master">
+      <created>1662256896595</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1662256896595</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="A harmless change" />
+    <MESSAGE value="Hacked inverted pendulum with LQR linearization controller. Does not work." />
+    <MESSAGE value="private version of autolirpa" />
+    <MESSAGE value="change to private version of autolirpa" />
+    <MESSAGE value="submodule tracks autolirpa master" />
+    <option name="LAST_COMMIT_MESSAGE" value="submodule tracks autolirpa master" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/dynamics/output_coordinates.py</url>
+          <line>17</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/control/train_segway.py</url>
+          <line>211</line>
+          <option name="timeStamp" value="1029" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_for_test_barrier_projection_test_slow.coverage" NAME="pytest for test_barrier_projection.test_slow Coverage Results" MODIFIED="1663018440273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify.coverage" NAME="certify Coverage Results" MODIFIED="1651386015399" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$plots_margin_relu.coverage" NAME="plots_margin_relu Coverage Results" MODIFIED="1652856823186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$test_solver.coverage" NAME="test_solver Coverage Results" MODIFIED="1662943496472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_robustness_classical.coverage" NAME="autoattack_robustness_classical Coverage Results" MODIFIED="1649728377727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision_origin.coverage" NAME="sample_certify_decision_origin Coverage Results" MODIFIED="1662078089343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_robustness_simplex.coverage" NAME="autoattack_robustness_simplex Coverage Results" MODIFIED="1651010458359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_for_test_barrier_projection_test_fast_no_upper.coverage" NAME="pytest for test_barrier_projection.test_fast_no_upper Coverage Results" MODIFIED="1663021721132" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$debug_certify_control.coverage" NAME="debug_certify_control Coverage Results" MODIFIED="1665183779938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_bias.coverage" NAME="certify_bias Coverage Results" MODIFIED="1663893247969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_segway3d.coverage" NAME="certified_segway_u Coverage Results" MODIFIED="1664859119346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$plots__1_.coverage" NAME="plots (1) Coverage Results" MODIFIED="1651972304782" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_full_crown_origin.coverage" NAME="certify_full_crown_origin Coverage Results" MODIFIED="1663629029567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_segway_roa.coverage" NAME="certified_segway_roa_plot Coverage Results" MODIFIED="1665263895271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$train_segway_roa_lqr.coverage" NAME="train_segway_roa_lqr Coverage Results" MODIFIED="1665172595633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$grid_on_decision_boundary.coverage" NAME="grid_on_decision_boundary Coverage Results" MODIFIED="1662450191192" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline_ode.coverage" NAME="sl_pipeline_ode Coverage Results" MODIFIED="1652770032535" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/FI_ODE$train_segway_roa.coverage" NAME="train_segway_roa Coverage Results" MODIFIED="1666738067462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision_margin.coverage" NAME="sample_certify_decision_margin Coverage Results" MODIFIED="1652133200645" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_robustness_project_simplex_.coverage" NAME="autoattack_robustness_project_simplex  Coverage Results" MODIFIED="1651015251664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_for_test_barrier_projection_test_all_above.coverage" NAME="pytest for test_barrier_projection.test_all_above Coverage Results" MODIFIED="1651123041988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_robustness.coverage" NAME="autoattack_robustness Coverage Results" MODIFIED="1651293726642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_ng.coverage" NAME="certified_ng Coverage Results" MODIFIED="1663895928208" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$plots_resnet_18.coverage" NAME="plots_resnet_18 Coverage Results" MODIFIED="1652850889522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/FI_ODE$certified_segway_roa_plot.coverage" NAME="certified_segway_roa_plot Coverage Results" MODIFIED="1666738666649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_full_crown.coverage" NAME="certify_full_crown Coverage Results" MODIFIED="1663793428963" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$plots_margin.coverage" NAME="plots_margin_relu Coverage Results" MODIFIED="1652228630916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_for_test_barrier_projection_test_fast.coverage" NAME="pytest for test_barrier_projection.test_fast Coverage Results" MODIFIED="1663021303412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify.coverage" NAME="sample_certify Coverage Results" MODIFIED="1652731760517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_emplip.coverage" NAME="sample_certify_emplip Coverage Results" MODIFIED="1663035404877" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline_lips_train.coverage" NAME="sl_pipeline_lips_train Coverage Results" MODIFIED="1652517407585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision_margin_relu.coverage" NAME="sample_certify_decision_margin_relu Coverage Results" MODIFIED="1652470573393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision_margin__1_.coverage" NAME="sample_certify_decision_margin_relu Coverage Results" MODIFIED="1652254417304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$train_segway_roa.coverage" NAME="train_segway_roa Coverage Results" MODIFIED="1665258919927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_bias_band.coverage" NAME="certify_bias_band Coverage Results" MODIFIED="1665632456252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_raw.coverage" NAME="autoattack_raw Coverage Results" MODIFIED="1663628186923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_bias_decision_boundary.coverage" NAME="certify_bias_decision_boundary Coverage Results" MODIFIED="1664092520268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$naive_certify.coverage" NAME="naive_certify Coverage Results" MODIFIED="1652830916197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline_original.coverage" NAME="sl_pipeline_original Coverage Results" MODIFIED="1649193003845" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline_logits.coverage" NAME="sl_pipeline_logits Coverage Results" MODIFIED="1651106872011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify__1_.coverage" NAME="sample_certify (1) Coverage Results" MODIFIED="1651972106928" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_compare.coverage" NAME="sample_certify_compare Coverage Results" MODIFIED="1652471793119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_for_test_test_fast_no_upper.coverage" NAME="pytest for test.test_fast_no_upper Coverage Results" MODIFIED="1662944555435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$train_segway3d.coverage" NAME="train_segway_boundary Coverage Results" MODIFIED="1664903735352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$plots.coverage" NAME="plots Coverage Results" MODIFIED="1651988589048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_segway.coverage" NAME="certified_segway Coverage Results" MODIFIED="1664858072194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/FI_ODE$certify_segway.coverage" NAME="certify_segway Coverage Results" MODIFIED="1666737976713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$pytest_in_test_barrier_projection_py.coverage" NAME="pytest in test_barrier_projection.py Coverage Results" MODIFIED="1651294426487" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/barrier_projection" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$test_lips.coverage" NAME="test_lips Coverage Results" MODIFIED="1665629162649" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certify_bias_ring.coverage" NAME="certify_bias_ring Coverage Results" MODIFIED="1665634555833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_pendulum.coverage" NAME="certified_pendulum Coverage Results" MODIFIED="1663136249136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision.coverage" NAME="sample_certify_decision Coverage Results" MODIFIED="1662245055429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sample_certify_decision__lccal.coverage" NAME="sample_certify_decision _lccal Coverage Results" MODIFIED="1663796171496" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline_logits_resnet18.coverage" NAME="sl_pipeline_logits_resnet18 Coverage Results" MODIFIED="1651563047775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$certified_pendulum_debug.coverage" NAME="certified_pendulum_debug Coverage Results" MODIFIED="1662680047964" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/control" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_saveidx.coverage" NAME="autoattack_saveidx Coverage Results" MODIFIED="1652684146608" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$sl_pipeline.coverage" NAME="sl_pipeline Coverage Results" MODIFIED="1665017828092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LyapunovLearning_Shadow$autoattack_robustness_lyanet.coverage" NAME="autoattack_robustness_lyanet Coverage Results" MODIFIED="1649743689858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/robustness" />
+  </component>
+</project>

@@ -127,7 +127,7 @@ def main(cfg: CertifyExpCfg) -> None:
                 ind_wrong = eta==max_wrong
                 ind_wrong[:,label] = False
                 y = th.ones(eta.shape[0], dtype=th.long).cuda() * label
-                h_x0 = h_vdot(module.model.dyn_fun, eta, static_state, y, ind_wrong, kappa)
+                h_x0 = h_vdot(module.model.dyn_fun, eta, static_state, y, ind_wrong)
                 violation_larger_T = h_x0 + kappa
                 violation = h_x0 + perturb + kappa
                 violation_larger_Ts.append(violation_larger_T.max().item())
