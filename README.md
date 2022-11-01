@@ -1,6 +1,6 @@
 # FI-ODE: Certified and Robust Forward Invariance in Neural ODEs
 
-This repository contains the implementation of the paper: FI-ODE: Certified and Robust Forward Invariance in Neural ODEs.
+This repository contains the implementation of the paper: [FI-ODE: Certified and Robust Forward Invariance in Neural ODEs](https://arxiv.org/abs/2210.16940).
 We develop a general approach to certifiably enforce forward invariance properties in neural ODEs using tools from non-linear control theory and sampling-based verification.
 
 ## Getting Started
