@@ -344,14 +344,14 @@ class RobustExpCfg(ExpCfg):
     model_file: str = MISSING
     norm:str = "2" # only 2 or inf
     eps:float = 0.5
-    download:bool = True
+    download:bool = False
 
 @dataclass
 class CertifyExpCfg(RobustExpCfg):
     model_file: str = MISSING
     norm:str = "2" # only 2 or inf
     eps:float = 0.141
-    download:bool = True
+    download:bool = False
     kappa: float = 0.2
     T: int = 40
     batches: int = 10

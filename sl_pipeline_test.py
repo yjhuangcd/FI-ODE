@@ -39,45 +39,6 @@ def set_debug_apis(state: bool = False):
 # Then in training code before the train loop
 set_debug_apis(state=False)
 
-
-# DATASETS = {'MNIST': load_mnist,
-#             'FashionMNIST': load_fashion_mnist,
-#             'CIFAR10': load_CIFAR10,
-#             'CIFAR100': load_CIFAR100,
-#             'ImageNet': load_imagenet}
-# IN_CHANNEL = {
-#              'MNIST': 1,
-#             'FashionMNIST': 1,
-#             'CIFAR10': 3,
-#             'CIFAR100': 3,
-#             'ImageNet': 3}
-# N_CLASSES = {'MNIST': 10,
-#             'FashionMNIST': 10,
-#             'CIFAR10': 10,
-#             'CIFAR100': 100,
-#             'ImageNet': 1000}
-# IMG_SIZE = {'MNIST': (32,32),
-#             'FashionMNIST': (32,32),
-#             'CIFAR10': (32,32),
-#             'CIFAR100': (32,32),
-#             'ImageNet': (32,32)}
-# CLASSICAL_MODELS = {
-# 'AlexNet': make_alex_net,
-# 'VGG16': make_vgg16,
-# 'ResNet18': make_resnet18,
-# 'ResNet50' : make_resnet50
-# }
-# OPTIMS = ['Adam', "AdamW", 'SGD', 'RMSprop']
-# MODELS = [ "LyaNet", "NeuralOde"] + list(CLASSICAL_MODELS.keys())
-#
-# DYN_MODEL = {'ClassDyn': ClassDyn,
-#              "ResNetBlockDyn": ResNetBlockDyn}
-# OUTPUT_FUNS = {
-#     "ResNetOut": lambda in_size, out_size: ResNetOutput(out_size, in_size),
-#     'LinearLastOutput': LinearLastOutput,
-#     'None': lambda x, y: DefaultOutputFun()
-# }
-
 def get_arch_name(config):
     return f'{get_module_name(config)}({get_model_name(config)})'
 
@@ -137,8 +98,6 @@ class SLExperiment:
         logger = pl_loggers.WandbLogger(name=self.create_log_name(),
                                         project=project,
                                         log_model='all')
-        # logger = pl_loggers.TensorBoardLogger(
-        #     save_dir=str(tensorboard_root / self.save_dir), flush_secs=1)
         callbacks = [TimingCallback()]
         if not config.disable_logs:
             callbacks += [
@@ -146,11 +105,6 @@ class SLExperiment:
                 pl.callbacks.ModelCheckpoint(monitor='validation_error',
                                              save_top_k=1,
                                              mode='min',),
-                # Disabled to keep tuning simple for now
-                # pl.callbacks.StochasticWeightAveraging(
-                #     swa_epoch_start=(1/2),
-                #     swa_lrs=self.config.module.lr * 1e-1
-                # )
             ]
         if other_callbacks is not None:
             callbacks += other_callbacks
@@ -161,10 +115,8 @@ class SLExperiment:
             check_val_every_n_epoch=1,
             default_root_dir=str(run_data_root / 'lightning_logs' / self.create_log_name()),
             gpus=config.gpus,
-            # checkpoint_callback=not config.disable_logs,
             callbacks=callbacks,
             progress_bar_refresh_rate=None if progbar else 0,
-            # gradient_clip_val=1e3,
         )
         pl.seed_everything(config.seed)
 
@@ -184,7 +136,6 @@ class SLExperiment:
 
     def create_log_name(self):
         returns = 'ROBUST:'
-        # returns += f'{self.exp_prefix}'
         returns += f'd.{self.config.dataset.name}'
         returns += f'_m.{self.module_name}({self.model_name})'
         returns += f'_b.{self.config.batch_size}'
@@ -192,7 +143,6 @@ class SLExperiment:
         returns += f'_wd.{self.config.module.weight_decay}'
         returns += f'_mepoch{self.config.module.max_epochs}'
         returns += f'._sd{self.config.seed}'
-        # returns += f'{self.exp_postfix}'
         return returns
 
     def run(self, checkpoint_module=None, test_only=False):

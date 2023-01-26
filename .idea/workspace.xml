@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e94cc14e-2a20-4b8c-99bb-05f71ba6d992" name="Changes" comment="submodule tracks autolirpa master">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExpConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExpConfig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robustness/certify_lipschitz.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/certify_lipschitz.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robustness/count_samples.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/robustness/eval_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/eval_utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configs/certify/mnist_certify.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/certify/mnist_certify.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robustness/eval_autoattack.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/eval_autoattack.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/sl_pipeline.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sl_pipeline_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sl_pipeline_test.py" afterDir="false" />
     </list>
     <list id="42bd4e18-847f-4d70-b3f1-3243c9bb5ae1" name="Changes by ivan" comment="Hacked inverted pendulum with LQR linearization controller. Does not work." />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +60,6 @@
     <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
@@ -82,7 +84,7 @@
       <recent name="$PROJECT_DIR$/robustness" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.certified_segway_roa_plot">
+  <component name="RunManager" selected="Python.eval_autoattack">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="LyapunovLearning-Shadow" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -256,7 +258,6 @@
       <method v="2" />
     </configuration>
     <configuration name="autoattack_saveidx" type="PythonConfigurationType" factoryName="Python">
-      <module name="LyapunovLearning-Shadow" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -270,6 +271,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/autoattack_saveidx.py" />
       <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +module/lya_cand=DynCrossEntropy ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=128 ++module.dynamics.alpha_1=1. ++module.dynamics.alpha_2=1. +model_file='ivan/RobustLyaNet/model-g4sr88fc:best' ++module.dynamics.scale_nominal=True ++module.dynamics.cayley=True ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
@@ -334,6 +336,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
         <env name="CUDA_LAUNCH_BLOCKING" value="1" />
         <env name="PYCHARM_DEBUG" value="1" />
         <env name="TORCH_DISTRIBUTED_DEBUG" value="INFO" />
@@ -532,6 +535,31 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/certify_full_crown_origin.py" />
       <option name="PARAMETERS" value="--config-name lyapunov_robust_orthodyn_project_simplex_lips +dataset=CIFAR10 +model_file='yujiah/RobustLyaNet/model-gnwo1p8l:best' +module/lya_cand=DecisionBoundary ++start_ind=0 ++end_ind=-1 ++T=40 ++batches=400 ++load_grid=True ++grid_name=&quot;grid_40.pt&quot; ++norm=&quot;2&quot; ++gpus=1 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.dynamics.activation=ReLU ++module.lya_cand.log_mode=False ++download=False hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="eval_autoattack" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="CUDA_LAUNCH_BLOCKING" value="1" />
+        <env name="PYCHARM_DEBUG" value="1" />
+        <env name="CUDA_VISIBLE_DEVICES" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/robustness" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/robustness/eval_autoattack.py" />
+      <option name="PARAMETERS" value="--config-name cifar_certify +dataset=CIFAR10 +model_file='cifar' +module/lya_cand=DecisionBoundary ++module.dynamics.activation=ReLU ++norm=&quot;2&quot; ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.t_max=0.1 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -1222,6 +1250,7 @@
       <item itemvalue="Python.plots (1)" />
       <item itemvalue="Python.sample_certify" />
       <item itemvalue="Python.autoattack_saveidx" />
+      <item itemvalue="Python.eval_autoattack" />
       <item itemvalue="Python.autoattack_raw" />
       <item itemvalue="Python.naive_certify" />
       <item itemvalue="Python.sample_certify_decision_origin" />
@@ -1290,7 +1319,9 @@
       <workItem from="1666293016673" duration="2634000" />
       <workItem from="1666308550570" duration="1703000" />
       <workItem from="1666330648042" duration="6530000" />
-      <workItem from="1666723523121" duration="10139000" />
+      <workItem from="1666723523121" duration="10341000" />
+      <workItem from="1673904567644" duration="5674000" />
+      <workItem from="1674759840873" duration="347000" />
     </task>
     <task id="LOCAL-00001" summary="A harmless change">
       <created>1648539039000</created>

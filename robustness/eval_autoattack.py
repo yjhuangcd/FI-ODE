@@ -48,13 +48,19 @@ def main(cfg: CertifyExpCfg) -> None:
     # exp.run(checkpoint_module=module, test_only=True)
 
     print("[INFO] Using L2 Attack with eps {}".format(cfg.eps))
-    atk = AutoAttack(module, norm='L2', eps=36 / 255, version='standard')
+    atk = AutoAttack(module, norm='L2', eps=cfg.eps, version='standard')
     # atk.attacks_to_run = ['apgd-ce', 'apgd-t']
 
     # load datasets
-    test_data = datasets.CIFAR10(
-        "./data", train=False, download=True,
-        transform=transforms.Compose([transforms.ToTensor()]))
+    if cfg.dataset.name == 'CIFAR10':
+        test_data = datasets.CIFAR10(
+            "./data", train=False, download=True,
+            transform=transforms.Compose([transforms.ToTensor()]))
+    elif cfg.dataset.name == 'MNIST':
+        test_data = datasets.MNIST(
+            "./data", train=False, download=True,
+            transform=transforms.Compose([transforms.ToTensor()]))
+
 
     test_data_loader = th.utils.data.DataLoader(dataset=test_data,
                                                 batch_size=cfg.val_batch_size,

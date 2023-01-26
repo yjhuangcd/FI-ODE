@@ -45,7 +45,7 @@ module:
   max_epochs: 200
   warmup: 20
   adv_train: True
-  eps: 0.141
+  eps: 0.1
   norm: L2
   act: relu
   scheduler_name: cos_anneal

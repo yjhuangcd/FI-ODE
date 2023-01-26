@@ -1,6 +1,6 @@
 # FI-ODE: Certified and Robust Forward Invariance in Neural ODEs
 
-This repository contains the implementation of the paper: FI-ODE: Certified and Robust Forward Invariance in Neural ODEs.
+This repository contains the implementation of the paper: [FI-ODE: Certified and Robust Forward Invariance in Neural ODEs](https://arxiv.org/abs/2210.16940).
 We develop a general approach to certifiably enforce forward invariance properties in neural ODEs using tools from non-linear control theory and sampling-based verification.
 
 ## Getting Started
@@ -33,7 +33,7 @@ Then you need to sample deterministically using:
 ```bash
 python3 sample_decision_boundary.py --config-name cifar_certify +dataset=CIFAR10 ++T=40 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled
 ```
-You can also directly download the sampled points from: , and put it in the `robustness` folder.
+You can also directly download the sampled points from [here](https://caltech.box.com/s/2s9u9ciapoorgq527e606wrhbi6fw8ic), and put it in the `robustness` folder.
 
 To certify the robustness of a trained neural ODE using CROWN, you can run:
 

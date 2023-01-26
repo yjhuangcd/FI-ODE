@@ -3,13 +3,6 @@ import ExpConfig
 from omegaconf import OmegaConf
 
 import pytorch_lightning as pl
-# from dataset_loaders import load_mnist, load_fashion_mnist, load_CIFAR10, \
-#     load_CIFAR100, load_imagenet
-# from dynamics.classification import ClassDyn
-# from dynamics.naiveResNet import ResNetOutput
-# from dynamics.output_coordinates import LinearLastOutput
-# from dynamics.resnet_block import ResNetBlockDyn
-# from models import *
 from torch.utils.data import DataLoader
 from pytorch_lightning import loggers as pl_loggers
 import torch as th
@@ -35,51 +28,10 @@ def set_debug_apis(state: bool = False):
     torch.autograd.set_detect_anomaly(mode=state)
 
 
-# Then in training code before the train loop
 set_debug_apis(state=False)
-
-
-# DATASETS = {'MNIST': load_mnist,
-#             'FashionMNIST': load_fashion_mnist,
-#             'CIFAR10': load_CIFAR10,
-#             'CIFAR100': load_CIFAR100,
-#             'ImageNet': load_imagenet}
-# IN_CHANNEL = {
-#              'MNIST': 1,
-#             'FashionMNIST': 1,
-#             'CIFAR10': 3,
-#             'CIFAR100': 3,
-#             'ImageNet': 3}
-# N_CLASSES = {'MNIST': 10,
-#             'FashionMNIST': 10,
-#             'CIFAR10': 10,
-#             'CIFAR100': 100,
-#             'ImageNet': 1000}
-# IMG_SIZE = {'MNIST': (32,32),
-#             'FashionMNIST': (32,32),
-#             'CIFAR10': (32,32),
-#             'CIFAR100': (32,32),
-#             'ImageNet': (32,32)}
-# CLASSICAL_MODELS = {
-# 'AlexNet': make_alex_net,
-# 'VGG16': make_vgg16,
-# 'ResNet18': make_resnet18,
-# 'ResNet50' : make_resnet50
-# }
-# OPTIMS = ['Adam', "AdamW", 'SGD', 'RMSprop']
-# MODELS = [ "LyaNet", "NeuralOde"] + list(CLASSICAL_MODELS.keys())
-#
-# DYN_MODEL = {'ClassDyn': ClassDyn,
-#              "ResNetBlockDyn": ResNetBlockDyn}
-# OUTPUT_FUNS = {
-#     "ResNetOut": lambda in_size, out_size: ResNetOutput(out_size, in_size),
-#     'LinearLastOutput': LinearLastOutput,
-#     'None': lambda x, y: DefaultOutputFun()
-# }
 
 def get_arch_name(config):
     return f'{get_module_name(config)}({get_model_name(config)})'
-
 
 def get_model_name(config):
     if hasattr(config.module, "model"):
@@ -163,10 +115,8 @@ class SLExperiment:
             gpus=config.gpus,
             accelerator='ddp',
             plugins=DDPPlugin(find_unused_parameters=False),
-            # checkpoint_callback=not config.disable_logs,
             callbacks=callbacks,
             progress_bar_refresh_rate=None if progbar else 0,
-            # gradient_clip_val=1e3,
         )
         pl.seed_everything(config.seed)
 
@@ -185,17 +135,11 @@ class SLExperiment:
 
 
     def create_log_name(self):
-        # returns = 'ROBUST:'
-        # returns += f'{self.exp_prefix}'
         returns = f'd.{self.config.dataset.name}'
         returns += f'_m.{self.module_name}({self.model_name})'
         returns += f'_ka.{self.config.module.dynamics.kappa}'
-        # returns += f'_b.{self.config.batch_size}'
-        # returns += f'_lr.{self.config.module.lr}'
-        # returns += f'_wd.{self.config.module.weight_decay}'
         returns += f'_mepoch{self.config.module.max_epochs}'
         returns += f'._sd{self.config.seed}'
-        # returns += f'{self.exp_postfix}'
         return returns
 
     def run(self, checkpoint_module=None, test_only=False):
@@ -209,23 +153,7 @@ class SLExperiment:
             self.trainer.fit(module,
                              train_loader,
                              val_loader)
-        # # load in the best model, test with single gpu
-        # dist.destroy_process_group()
-        # if self.trainer.is_global_zero:
-        #     self.trainer.strategy.num_nodes = 1
-        #     # self.trainer.training_type_plugin.num_nodes = 1
-        #     # self.trainer.strategy.num_processes = 1
-        # else:
-        #     return
-        # # With 1 process, 1 node -> num replicas = 1, so ddp sampler is safe but not necessary
-        # self.trainer._accelerator_connector.replace_sampler_ddp = False
         self.trainer.test(ckpt_path="best", dataloaders=test_loader)
-
-        # dist.destroy_process_group()
-        # if self.trainer.is_global_zero:
-        #     trainer = pl.Trainer(gpus=1)
-        #     trainer.test(ckpt_path=self.trainer.callbacks[2].best_model_path, dataloaders=test_loader)
-
         return module
 
     def make_dataloaders(self):
