@@ -18,6 +18,8 @@ And you need install the AutoAttack package manually via:
 pip install git+https://github.com/fra31/auto-attack
 ```
 
+Before running the code, add these folders to PYTHONPATH: `libs/ortho_conv, libs/advertorch, libs/ortho_conv/LConvNet, libs/auto_LiRPA, libs/core`.
+
 
 ## Train a Certifiably Robust Neural ODE
 You can run the training code under the current directory.

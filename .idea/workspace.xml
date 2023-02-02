@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e94cc14e-2a20-4b8c-99bb-05f71ba6d992" name="Changes" comment="submodule tracks autolirpa master">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExpConfig.py" beforeDir="false" afterPath="$PROJECT_DIR$/ExpConfig.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/certify/mnist_certify.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/configs/certify/mnist_certify.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robustness/eval_autoattack.py" beforeDir="false" afterPath="$PROJECT_DIR$/robustness/eval_autoattack.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_pipeline.py" beforeDir="false" afterPath="$PROJECT_DIR$/sl_pipeline.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sl_pipeline_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/sl_pipeline_test.py" afterDir="false" />
-    </list>
+    <list default="true" id="e94cc14e-2a20-4b8c-99bb-05f71ba6d992" name="Changes" comment="submodule tracks autolirpa master" />
     <list id="42bd4e18-847f-4d70-b3f1-3243c9bb5ae1" name="Changes by ivan" comment="Hacked inverted pendulum with LQR linearization controller. Does not work." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1321,7 +1313,7 @@
       <workItem from="1666330648042" duration="6530000" />
       <workItem from="1666723523121" duration="10341000" />
       <workItem from="1673904567644" duration="5674000" />
-      <workItem from="1674759840873" duration="347000" />
+      <workItem from="1674759840873" duration="552000" />
     </task>
     <task id="LOCAL-00001" summary="A harmless change">
       <created>1648539039000</created>
