@@ -106,8 +106,8 @@ class ClassicalModel:
 @dataclass
 class CIFAR_4C3F:
     _target_: str = "models.make_4C3F"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "GroupSort"
 
@@ -115,8 +115,8 @@ class CIFAR_4C3F:
 @dataclass
 class CIFAR_4C3F_nolips:
     _target_: str = "models.make_4C3F_nolips"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "ReLU"
 
@@ -124,40 +124,40 @@ class CIFAR_4C3F_nolips:
 @dataclass
 class CIFAR_6C2F:
     _target_: str = "models.make_6C2F"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
 
 
 @dataclass
 class ORTHO_KWLarge_Concat(ClassicalModel):
     # name = "RESNET18"
     _target_: str = "models.make_ortho_KWLarge_Concat"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "GroupSort"
 
 @dataclass
 class ORTHO_KWLargeMNIST_Concat(ClassicalModel):
     _target_: str = "models.make_ortho_KWLargeMNIST_Concat"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "GroupSort"
 
 @dataclass
 class ORTHO_KWLarge_Concat_test(ClassicalModel):
     _target_: str = "models.make_ortho_KWLarge_Concat_test"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "GroupSort"
 
 @dataclass
 class ORTHO_KWLargeMNIST_Concat_test(ClassicalModel):
     _target_: str = "models.make_ortho_KWLargeMNIST_Concat_test"
-    mu: Tuple[int] = II('dataset.MU')
-    std: Tuple[int] = II('dataset.STD')
+    mu: Tuple[float] = II('dataset.MU')
+    std: Tuple[float] = II('dataset.STD')
     out_dim: int = 128
     act: str = "GroupSort"
 

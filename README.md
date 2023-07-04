@@ -1,13 +1,11 @@
 # FI-ODE: Certified and Robust Forward Invariance in Neural ODEs
 
-This repository contains the implementation of the paper: [FI-ODE: Certified and Robust Forward Invariance in Neural ODEs](https://arxiv.org/abs/2210.16940).
 We develop a general approach to certifiably enforce forward invariance properties in neural ODEs using tools from non-linear control theory and sampling-based verification.
 
 ## Getting Started
-This repository depends on several submodules. To clone this repository, you can use:
-```bash
-git clone git@github.com:yjhuangcd/FI-ODE.git --recurse-submodules
-```
+This repository depends on several submodules in the folder `libs`. 
+We modify the code from the following public repositories: [auto_LiRPA](https://github.com/Verified-Intelligence/auto_LiRPA), [orthogonal-convolutions](https://github.com/locuslab/orthogonal-convolutions), [learning-and-control](https://github.com/learning-and-control/core), and [advertorch](https://github.com/BorealisAI/advertorch). 
+
 
 The environment requirements are in `env.yml`. You can create a conda environment using:
 ```bash
@@ -21,7 +19,32 @@ pip install git+https://github.com/fra31/auto-attack
 Before running the code, add these folders to PYTHONPATH: `libs/ortho_conv, libs/advertorch, libs/ortho_conv/LConvNet, libs/auto_LiRPA, libs/core`.
 
 
-## Train a Certifiably Robust Neural ODE
+## Certifiably Robust Neural ODE for Robust Control
+To train and certify a neural network controller controller, first go to the `control` directory.
+
+To train a forward invariant neural network controller that keeps the states of a segway system stay within a safe set under nominal system parameters, run:
+```bash
+python3 train_segway.py
+```
+
+To train a robust forward invariant neural network controller that keeps the states of a segway system stay within a safe set under perturbed system parameters run:
+```bash
+python3 train_segway_robust.py
+```
+
+For certification, you can load in trained models from the folder `trained_models`.
+To certify forward invariance, run:
+```bash
+python3 certify_segway.py
+```
+
+To certify robust forward invariance, run:
+```bash
+python3 certify_segway_robust.py
+```
+
+
+## Certifiably Robust Neural ODE for Image Classification
 You can run the training code under the current directory.
 To train a certifiably robust neural ODE on CIFAR-10, you can run:
 
@@ -29,7 +52,6 @@ To train a certifiably robust neural ODE on CIFAR-10, you can run:
 python3 sl_pipeline.py --config-name cifar_train +module/lya_cand=DecisionBoundary +dataset=CIFAR10 ++gpus=1 ++batch_size=128 ++val_batch_size=256 ++data_loader_workers=4 ++module.h_dist_lim=15. ++module.opt_name=Adam ++module.lr=5e-3 ++module.t_max=1 ++module.weight_decay=0. ++module.warmup=-1 ++module.dynamics.kappa=2.0 ++module.max_epochs=300 ++module.h_sample_size=256 ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.val_ode_tol=1e-3 ++module.val_ode_solver=dopri5 ++module.dynamics.scale_nominal=True ++module.adv_train=False ++module.dynamics.cayley=True ++module.dynamics.kappa_length=0
 ```
 
-## Certify a Neural ODE for Adversarial Robustness
 To run certified robustness tests, first go to the `robustness` directory. 
 Then you need to sample deterministically using:
 ```bash
@@ -53,19 +75,4 @@ To evaluate the adversarial robustness of the trained models using AutoAttack, y
 python3 eval_autoattack.py --config-name cifar_certify +dataset=CIFAR10 +model_file='cifar' +module/lya_cand=DecisionBoundary ++module.dynamics.activation=ReLU ++norm="2" ++gpus=1 ++batch_size=128 ++val_batch_size=512 ++module.dynamics.alpha_1=100. ++module.dynamics.sigma_1=0.02 ++module.dynamics.alpha_2=20. ++module.dynamics.scale_nominal=False ++module.dynamics.cayley=True ++module.t_max=0.1 hydra.run.dir=. hydra.output_subdir=null hydra/job_logging=disabled hydra/hydra_logging=disabled
 ```
 
-## Train and Certify Safe Neural Network Controller
-To run certified nn controller, first go to the `control` directory.
 
-To train a neural network controller that keeps the states of a segway system stay within a safe set, run:
-```bash
-python3 train_segway.py
-```
-
-To certify that the controller satisfies the safe condition and plot the trajectories, run:
-```bash
-python3 certify_segway.py
-```
-
-## Refererences
-This repository is based upon the [LyaNet](https://github.com/ivandariojr/LyapunovLearning) repository.
-The submodules use the code from the following repositories: [auto_LiRPA](https://github.com/Verified-Intelligence/auto_LiRPA), [orthogonal-convolutions](https://github.com/locuslab/orthogonal-convolutions), [learning-and-control](https://github.com/learning-and-control/core), and [advertorch](https://github.com/BorealisAI/advertorch). 
